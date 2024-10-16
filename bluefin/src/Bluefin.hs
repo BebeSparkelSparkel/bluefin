@@ -147,7 +147,7 @@ module Bluefin
     -- pattern which looks like
     --
     -- @
-    -- (e1 :> es, ...) -> \<Handle\> e1 -> ... -> Eff es r
+    -- (e1 :> es, ...) => \<Handle\> e1 -> ... -> Eff es r
     -- @
     --
     -- Here @\<Handle\>@ could be, for example, @State Int@,
